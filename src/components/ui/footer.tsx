@@ -42,6 +42,10 @@ export function Footer() {
                     <div className="text-zinc-600 text-sm">
                         © {new Date().getFullYear()} Mentrex AI Inc. All rights reserved.
                     </div>
+                    <div className="flex gap-6 text-sm text-zinc-500">
+                        <Link href="/privacy" className="hover:text-amber-500 transition-colors">Privacy Policy</Link>
+                        <Link href="/terms" className="hover:text-amber-500 transition-colors">Terms of Service</Link>
+                    </div>
                 </div>
             </div>
         </footer>
